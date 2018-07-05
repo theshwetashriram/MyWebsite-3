@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assured Exceptional Unique Store</title>
+    <link rel="icon" href="img/AEUS.png">
+<style>
+    /* ----- Main Header ----- */
+    
+    body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    }
+    .main-header{
+    background-image: url("img/4.jpg");
+        background-size: auto;
+        padding: 15px;
+        color: white;
+        text-align: left;
+    }
+    div {
+        background-image: url("img/4.jpg");
+        background-size: cover;
+        padding: 10px;
+        color: black;
+        text-align: right;
+    }
+    /* ------ Main Navigation ------ */
+    .main-nav{
+        background-color: #23251B;
+        overflow: hidden;
+    }
+    .main-nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .main-nav ul li{
+        float: left;
+    }
+    .main-nav ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 12px 25px;
+        display: inline-block;
+    }
+    .main-nav ul li a:hover{
+        background-color: #7D8A70;
+    }
+    /*---- Flash News Section ------*/
+    .flash-news{
+        background-color: #23251B;
+        color: white;
+        font-size: 22px;
+        padding: 5px;
+        margin-top: 5px;
+        animation-name: flash-news;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes flash-news {
+        0% , 50% , 100%{
+            background-color: #7c4dff;
+        }
+        25% , 75%{
+            background-color: #23251B;
+        }
+    }
+    .flash-news p{
+        margin: 0;
+        animation-name: paragraph;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes paragraph {
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(-50%);
+        }
+    }
+
+
+</style>
+
+
+</head>
+<body>
+
+<!-- Main Header -->
+<header class="main-header">
+    <h1>Assured Exceptional Unique Store</h1>
+</header>
+
+<!-- Search Bar -->
+
+<div>
+    <form>
+        <input type="text" placeholder="Search Here">
+        <input type="submit" value="submit">
+    </form>
+</div>
+
+<!-- Main Navigation -->
+<nav class="main-nav">
+    <ul>
+        <li>
+            <a>Home</a>
+        </li>
+        <li>
+            <a>Electronics</a>
+        </li>
+        <li>
+            <a>Home & Furniture</a>
+        </li>
+        <li>
+            <a>Men</a>
+        </li>
+        <li>
+            <a>women</a>
+        </li>
+        <li>
+            <a>Baby & Kids</a>
+        </li>
+        <li>
+            <a>Kitchen</a>
+        </li>
+        <li>
+            <a>Sports,Books & More</a>
+        </li>
+        <li>
+            <a>Others</a>
+        </li>
+        <li>
+            <a>About Us</a>
+        </li>
+        <li>
+            <a>Contact Us</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Flash News Section -->
+<section class="flash-news">
+    <p>5% Discount on each and every product on 5th june</p>
+</section>
+
+<!-- Home News Section -->
+<h2>Deals Of The Day</h2>
+<section class="home-news-section">
+    <!-- Laptop News -->
+    <article class="home-news-article">
+        <h2>Laptop News</h2>
+        <p>
+            <img src="img/apple-laptops.png">
+        </p>
+        <div class="home-news-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur aut, deleniti dolorem hic inventore ipsa ipsum magni mollitia nam odit quibusdam, quos repellendus repudiandae voluptas! Eaque natus nostrum obcaecati tempora? Cumque dolores fugiat labore nisi perspiciatis quas quod sit.</p>
+        </div>
+    </article>
+
+    <!-- Mobile News -->
+    <article class="home-news-article">
+        <h2>Mobile News</h2>
+        <p>
+            <img src="images/main_mobile.JPG">
+        </p>
+        <div class="home-news-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur aut, deleniti dolorem hic inventore ipsa ipsum magni mollitia nam odit quibusdam, quos repellendus repudiandae voluptas! Eaque natus nostrum obcaecati tempora? Cumque dolores fugiat labore nisi perspiciatis quas quod sit.</p>
+        </div>
+    </article>
+
+    <!-- Tablet News -->
+    <article class="home-news-article">
+        <h2>Tablet News</h2>
+        <p>
+            <img src="images/main_tablet.png">
+        </p>
+        <div class="home-news-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur aut, deleniti dolorem hic inventore ipsa ipsum magni mollitia nam odit quibusdam, quos repellendus repudiandae voluptas! Eaque natus nostrum obcaecati tempora? Cumque dolores fugiat labore nisi perspiciatis quas quod sit.</p>
+        </div>
+    </article>
+</section>
+
+</body>
+</html>
